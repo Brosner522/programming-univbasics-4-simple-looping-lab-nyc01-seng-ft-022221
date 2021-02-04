@@ -11,7 +11,10 @@ end
 def loop_message_n_times (message, limit)
     count = 0 
     
-    while count
+    while count < limit do 
+      puts limit 
+      count += 10 
+    end 
 end
 
 
