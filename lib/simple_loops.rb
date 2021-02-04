@@ -1,4 +1,4 @@
-def loop_message_five_times("Hello world")
+def loop_message_five_times(message)
     count = 0 
     
     while count < 5 do
@@ -8,7 +8,7 @@ def loop_message_five_times("Hello world")
 end
 
 
-def loop_message_n_times (message, "Hello Moon")
+def loop_message_n_times (message, limit)
     count = 0 
     
     while count < limit do 
@@ -18,7 +18,7 @@ def loop_message_n_times (message, "Hello Moon")
 end
 
 
-def output_array ("everyone else is already taken")
+def output_array (array)
     count = 0 
     
     while count < array.length do
