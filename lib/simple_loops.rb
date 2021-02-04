@@ -1,5 +1,5 @@
 def loop_message_five_times(string)
-    counter = 0 
+    counter = 1  
     
     while counter < string.length do
       puts #{string}
