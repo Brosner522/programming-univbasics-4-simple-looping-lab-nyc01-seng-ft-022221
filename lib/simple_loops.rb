@@ -18,7 +18,7 @@ def loop_message_n_times (message, "Hello Moon")
 end
 
 
-def output_array (array)
+def output_array ("everyone else is already taken")
     count = 0 
     
     while count < array.length do
